@@ -49,7 +49,7 @@ export function FeaturedProjects() {
             <div className="p-6">
               <h3 className="text-xl font-bold text-gray-800 mb-2">Coming Soon</h3>
               <p className="text-gray-600">
-                We're nurturing something special. Stay tuned for our next groundbreaking project.
+                We&apos;re nurturing something special. Stay tuned for our next groundbreaking project.
               </p>
               <div className="mt-4 flex items-center gap-2">
                 <span className="px-3 py-1 rounded-full text-sm bg-mint/20 text-gray-800">In Development</span>
@@ -61,5 +61,4 @@ export function FeaturedProjects() {
       </div>
     </section>
   )
-} 
 } 
