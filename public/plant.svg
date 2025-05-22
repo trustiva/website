@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Soil -->
+  <path d="M32 200C32 200 64 216 128 216C192 216 224 200 224 200V256H32V200Z" fill="#8B4513"/>
+  
+  <!-- Plant pot -->
+  <path d="M96 200C96 200 112 208 128 208C144 208 160 200 160 200V216H96V200Z" fill="#A0522D"/>
+  
+  <!-- Stem -->
+  <path d="M128 120C128 120 128 160 128 200" stroke="#2E8B57" stroke-width="8"/>
+  
+  <!-- Leaves -->
+  <path d="M128 140C128 140 160 120 180 140" stroke="#3CB371" stroke-width="6" stroke-linecap="round"/>
+  <path d="M128 160C128 160 160 180 180 160" stroke="#3CB371" stroke-width="6" stroke-linecap="round"/>
+  <path d="M128 140C128 140 96 120 76 140" stroke="#3CB371" stroke-width="6" stroke-linecap="round"/>
+  <path d="M128 160C128 160 96 180 76 160" stroke="#3CB371" stroke-width="6" stroke-linecap="round"/>
+  
+  <!-- Bud -->
+  <circle cx="128" cy="120" r="12" fill="#98FB98"/>
+</svg> 

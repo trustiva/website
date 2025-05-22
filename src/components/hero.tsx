@@ -6,23 +6,26 @@ export function Hero() {
       {/* Decorative elements */}
       <div className="absolute inset-0 z-0">
         <div className="absolute top-20 left-10 w-32 h-32 opacity-20 animate-leaf-grow">
-          <Image src="/leaf1.svg" alt="Decorative leaf" width={128} height={128} />
+          <Image src="/leaf1.svg" alt="برگ تزئینی" width={128} height={128} />
         </div>
         <div className="absolute bottom-20 right-10 w-40 h-40 opacity-20 animate-leaf-grow" style={{ animationDelay: "0.5s" }}>
-          <Image src="/leaf2.svg" alt="Decorative leaf" width={160} height={160} />
+          <Image src="/leaf2.svg" alt="برگ تزئینی" width={160} height={160} />
+        </div>
+        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-64 h-64 opacity-10 animate-leaf-grow" style={{ animationDelay: "0.8s" }}>
+          <Image src="/plant.svg" alt="گیاه در حال رشد" width={256} height={256} />
         </div>
       </div>
 
       <div className="container px-4 md:px-6 relative z-10">
         <div className="flex flex-col items-center space-y-8 text-center">
           <div className="space-y-4 animate-fade-up">
-            <h1 className="text-5xl font-bold tracking-tighter sm:text-6xl md:text-7xl lg:text-8xl text-gray-800">
-              From Nothing.
-              <br />
-              To Legacy.
+            <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl text-gray-800">
+              از صفر، تا جهانی شدن با خاک
+              <span className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl"> 🌱</span>
             </h1>
             <p className="mx-auto max-w-[700px] text-gray-600 md:text-xl">
-              Nurturing ideas like seeds in fertile soil, watching them grow into something extraordinary.
+              پرورش ایده‌ها مثل دانه‌های کوچک در خاک حاصلخیز، 
+              و تماشای رشد آنها به چیزی خارق‌العاده
             </p>
           </div>
           
@@ -31,13 +34,13 @@ export function Hero() {
               href="#projects"
               className="inline-flex items-center justify-center rounded-full bg-mint px-8 py-3 text-sm font-medium text-gray-800 transition-colors hover:bg-mint-dark"
             >
-              Explore Projects
+              شروع مسیر
             </a>
             <a
               href="#contact"
               className="inline-flex items-center justify-center rounded-full border-2 border-mint px-8 py-3 text-sm font-medium text-gray-800 transition-colors hover:bg-mint/10"
             >
-              Get in Touch
+              تماس با ما
             </a>
           </div>
         </div>

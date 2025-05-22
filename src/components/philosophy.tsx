@@ -6,45 +6,53 @@ export function Philosophy() {
       {/* Decorative elements */}
       <div className="absolute inset-0 z-0">
         <div className="absolute top-1/4 right-10 w-24 h-24 opacity-10 animate-leaf-grow" style={{ animationDelay: "0.3s" }}>
-          <Image src="/leaf3.svg" alt="Decorative leaf" width={96} height={96} />
+          <Image src="/leaf3.svg" alt="برگ تزئینی" width={96} height={96} />
         </div>
         <div className="absolute bottom-1/4 left-10 w-32 h-32 opacity-10 animate-leaf-grow" style={{ animationDelay: "0.6s" }}>
-          <Image src="/leaf4.svg" alt="Decorative leaf" width={128} height={128} />
+          <Image src="/leaf4.svg" alt="برگ تزئینی" width={128} height={128} />
         </div>
       </div>
 
       <div className="container px-4 md:px-6 relative z-10">
         <div className="mx-auto max-w-[800px] text-center">
           <div className="animate-fade-up">
-            <h2 className="text-3xl font-bold tracking-tighter mb-6 text-gray-800">Who We Are</h2>
+            <h2 className="text-3xl font-bold tracking-tighter mb-6 text-gray-800">فلسفه ما</h2>
             <div className="space-y-6 text-gray-600">
               <p className="text-lg leading-relaxed">
-                At Zero & Soil, we believe in the power of storytelling to transform lives. 
-                Like a gardener tending to their plants, we nurture ideas from seed to bloom.
-              </p>
-              <p className="text-lg leading-relaxed">
-                Our mission is to create content that inspires, educates, and connects people 
-                across the globe, using technology as our soil and creativity as our water.
-              </p>
-              <p className="text-lg leading-relaxed">
-                We're not just building a media company – we're cultivating a garden of 
-                innovation where ideas can flourish and grow into something extraordinary.
+                در صفر و خاک، ما به قدرت داستان‌سرایی در تغییر زندگی‌ها باور داریم. 
+                مثل یک باغبان که از گیاهانش مراقبت می‌کند، ما ایده‌ها را از دانه تا شکوفایی پرورش می‌دهیم.
               </p>
             </div>
           </div>
 
-          <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8 animate-fade-up" style={{ animationDelay: "0.3s" }}>
-            <div className="p-6 rounded-2xl bg-white/50 backdrop-blur-sm">
-              <h3 className="text-xl font-bold text-gray-800 mb-3">Innovation</h3>
-              <p className="text-gray-600">Pushing boundaries and exploring new possibilities in media and technology.</p>
+          <div className="mt-12 grid grid-cols-1 md:grid-cols-2 gap-8 animate-fade-up" style={{ animationDelay: "0.3s" }}>
+            <div className="p-6 rounded-2xl bg-white/50 backdrop-blur-sm border border-mint/20 shadow-lg hover:shadow-xl transition-shadow">
+              <div className="w-12 h-12 mx-auto mb-4 text-mint">
+                <Image src="/leaf1.svg" alt="نوآوری" width={48} height={48} />
+              </div>
+              <h3 className="text-xl font-bold text-gray-800 mb-3">نوآوری</h3>
+              <p className="text-gray-600">پیشبرد مرزهای دانش و کاوش در امکانات جدید در رسانه و فناوری</p>
             </div>
-            <div className="p-6 rounded-2xl bg-white/50 backdrop-blur-sm">
-              <h3 className="text-xl font-bold text-gray-800 mb-3">Sustainability</h3>
-              <p className="text-gray-600">Building lasting solutions that grow and evolve with time.</p>
+            <div className="p-6 rounded-2xl bg-white/50 backdrop-blur-sm border border-mint/20 shadow-lg hover:shadow-xl transition-shadow">
+              <div className="w-12 h-12 mx-auto mb-4 text-mint">
+                <Image src="/leaf2.svg" alt="پایداری" width={48} height={48} />
+              </div>
+              <h3 className="text-xl font-bold text-gray-800 mb-3">پایداری</h3>
+              <p className="text-gray-600">ساخت راه‌حل‌های ماندگار که با گذشت زمان رشد و تکامل می‌یابند</p>
             </div>
-            <div className="p-6 rounded-2xl bg-white/50 backdrop-blur-sm">
-              <h3 className="text-xl font-bold text-gray-800 mb-3">Community</h3>
-              <p className="text-gray-600">Fostering connections and nurturing a global network of creators.</p>
+            <div className="p-6 rounded-2xl bg-white/50 backdrop-blur-sm border border-mint/20 shadow-lg hover:shadow-xl transition-shadow">
+              <div className="w-12 h-12 mx-auto mb-4 text-mint">
+                <Image src="/leaf3.svg" alt="یادگیری" width={48} height={48} />
+              </div>
+              <h3 className="text-xl font-bold text-gray-800 mb-3">یادگیری</h3>
+              <p className="text-gray-600">توسعه مستمر مهارت‌ها و دانش برای رشد شخصی و حرفه‌ای</p>
+            </div>
+            <div className="p-6 rounded-2xl bg-white/50 backdrop-blur-sm border border-mint/20 shadow-lg hover:shadow-xl transition-shadow">
+              <div className="w-12 h-12 mx-auto mb-4 text-mint">
+                <Image src="/leaf4.svg" alt="اجتماع" width={48} height={48} />
+              </div>
+              <h3 className="text-xl font-bold text-gray-800 mb-3">اجتماع</h3>
+              <p className="text-gray-600">پرورش ارتباطات و ایجاد شبکه جهانی از خالقان و نوآوران</p>
             </div>
           </div>
         </div>
